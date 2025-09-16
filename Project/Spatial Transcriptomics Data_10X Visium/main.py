@@ -12,7 +12,7 @@ import os
 
 warnings.filterwarnings("ignore")
 
-DATA_FOLDER = r"D:\\CSE443_Assignments\\Project\\data\\V1_Human_Lymph_Node"
+DATA_FOLDER = r"D:\\Project\\Spatial Transcriptomics Data_10X Visium\\dataset\\V1_Human_Lymph_Node"
 N_CLUSTERS = 6   # adjust as needed
 N_PCS = 20       # number of PCs to use
 
@@ -91,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
