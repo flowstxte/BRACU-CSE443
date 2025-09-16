@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # LOCAL FILE
-FILE_NAME = r"D:\\CSE443_Assignments\\Project\\data\\V1_Human_Heart_filtered_feature_bc_matrix.h5"
+FILE_NAME = r"D:\\Project\\Single Cell RNA-Seq Data\\dataset\\V1_Human_Heart_filtered_feature_bc_matrix.h5"
 N_CLUSTERS = 6   # change as needed
 N_PCS = 20       # number of PCs to use for clustering
 
@@ -97,4 +97,5 @@ def main():
     print("Done.")
 
 if __name__ == "__main__":
+
     main()
